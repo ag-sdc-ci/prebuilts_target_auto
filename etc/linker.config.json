@@ -1,0 +1,9 @@
+{
+	"provideLibs": [	
+		    "libdummy_ext_auto-x86_64-v2.so",
+		    "libdummy_ext_auto.so",
+		    "libdummy_shared_auto-x86_64-v2.so",
+		    "libdummy_shared_auto.so"
+	],
+	"visible": true
+}
