@@ -22,6 +22,12 @@ java_import {
     jars: ["share/auto/auto-android-annotation-stubs.jar"],
     host_supported: true,
     prefer: true,
+    sdk_version: "core_current",
+    min_sdk_version: "28",
+    apex_available: [
+        "//apex_available:platform",
+        "//apex_available:anyapex",
+    ],
 }
 
 java_import {
@@ -29,6 +35,12 @@ java_import {
     jars: ["share/auto/auto-common-1.2.1.jar"],
     host_supported: true,
     prefer: true,
+    sdk_version: "core_current",
+    min_sdk_version: "28",
+    apex_available: [
+        "//apex_available:platform",
+        "//apex_available:anyapex",
+    ],
 }
 
 java_import {
@@ -36,6 +48,12 @@ java_import {
     jars: ["share/auto/auto-factory-1.0.1.jar"],
     host_supported: true,
     prefer: true,
+    sdk_version: "core_current",
+    min_sdk_version: "28",
+    apex_available: [
+        "//apex_available:platform",
+        "//apex_available:anyapex",
+    ],
 }
 
 java_plugin {
@@ -53,6 +71,12 @@ java_import {
     jars: ["share/auto/auto-service-annotations-1.0.1.jar"],
     host_supported: true,
     prefer: true,
+    sdk_version: "core_current",
+    min_sdk_version: "28",
+    apex_available: [
+        "//apex_available:platform",
+        "//apex_available:anyapex",
+    ],
 }
 
 java_import_host {
@@ -127,6 +151,12 @@ java_import {
     jars: ["share/auto/auto-value-annotations-1.10.4.jar"],
     host_supported: true,
     prefer: true,
+    sdk_version: "core_current",
+    min_sdk_version: "28",
+    apex_available: [
+        "//apex_available:platform",
+        "//apex_available:anyapex",
+    ],
 }
 
 java_plugin {
